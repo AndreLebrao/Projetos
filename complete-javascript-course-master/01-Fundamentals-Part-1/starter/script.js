@@ -63,12 +63,30 @@
 // console.log(ageSarah >= 18);
 // const ehDeMaior = ageSarah >= 18;
 
-const now = 2020;
-const ageJonas = now - 1991;
-const ageSarah = now - 2003;
-console.log(ageJonas, ageSarah);
-console.log(now - 1991 > now - 2003);
+// const now = 2020;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2003;
+// console.log(ageJonas, ageSarah);
+// console.log(now - 1991 > now - 2003);
 
-let x, y;
-x = y = 20 - 10 - 5;
-console.log(x, y);
+// let x, y;
+// x = y = 20 - 10 - 5;
+// console.log(x, y);
+
+const firstName = "Andrew";
+const job = "teacher";
+const birthYear = 2000;
+const year = 2021;
+
+const andrew =
+  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+console.log("soma");
+console.log(andrew);
+console.log("str literal");
+const andrewNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(andrewNew);
+
+console.log(`Strings
+with
+multiple
+lines`);

@@ -73,20 +73,100 @@
 // x = y = 20 - 10 - 5;
 // console.log(x, y);
 
-const firstName = "Andrew";
-const job = "teacher";
-const birthYear = 2000;
-const year = 2021;
+// const firstName = "Andrew";
+// const job = "teacher";
+// const birthYear = 2000;
+// const year = 2021;
 
-const andrew =
-  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
-console.log("soma");
-console.log(andrew);
-console.log("str literal");
-const andrewNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
-console.log(andrewNew);
+// const andrew =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+// console.log("soma");
+// console.log(andrew);
+// console.log("str literal");
+// const andrewNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(andrewNew);
 
-console.log(`Strings
-with
-multiple
-lines`);
+// console.log(`Strings
+// with
+// multiple
+// lines`);
+
+// const age = 15;
+// if (age >= 18) {
+//   console.log("Can start driving");
+// } else {
+//   const yearsleft = 18 - age;
+//   console.log(`de menor, ainda faltam ${yearsleft} anos`);
+// }
+
+// const birthYear = 1991;
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
+
+// // type conversion
+// const inputYear = "1991";
+// console.log(Number(inputYear), inputYear);
+// console.log(Number("jonas"));
+// console.log(typeof NaN);
+
+// // type Coercion
+// console.log("I am" + 20 + " years old");
+// console.log("23" - 20 - "3");
+
+// falsy values: 0 , '', undefined, null, NaN
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Jonas"));
+// console.log(Boolean({}));
+// console.log();
+// console.log();
+
+// const age = 18;
+// const age = Number(prompt("number: 18"));
+// if (age === 18) {
+//   console.log("Just became adult (strict)");
+// } else if (age === 17) console.log("de menor");
+// else if (age == 18) console.log("Just became adult (loose)");
+
+// const a = true;
+// const b = false;
+// // and
+// console.log(a && b);
+// // or
+// console.log(a || b);
+// // not
+// console.log(!a);
+
+// switch
+// const day = "friday";
+// switch (day) {
+//   case "monday":
+//     console.log(1);
+//     break;
+//   case "tuesday":
+//     console.log(2);
+//     break;
+//   case "wednesday":
+//     console.log(3);
+//     break;
+//   // assim ele roda o mesmo codigo tanto na quinta quanto na sexta
+//   case "thursday":
+//   case "friday":
+//     console.log(4);
+//     break;
+//   default:
+//     console.log("invalid case");
+//     break;
+// }
+
+const age = 23;
+age >= 18 ? console.log("de maior") : console.log("de menor");
+
+const drink = age >= 18 ? "wine" : "water";
+console.log(drink);
+console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);

@@ -21,7 +21,6 @@
 // }
 // const age1=calcAge1(1995)
 
-
 // // function expression
 // const calcAge2 = function(birthYear){
 //   return 2021-birthYear;
@@ -35,9 +34,31 @@
 // const age3=calcAge3(1995)
 // console.log(age3)
 
-const yearsBeforeRetire = (birthYear,firstName)=>{
-  const age = 2021-birthYear;
-  const retirement = 65-age;
-  return `${firstName} retires in ${retirement} years`
-}
-console.log(yearsBeforeRetire(1995,'jonas'))
+// const yearsBeforeRetire = (birthYear,firstName)=>{
+//   const age = 2021-birthYear;
+//   const retirement = 65-age;
+//   return `${firstName} retires in ${retirement} years`
+// }
+// console.log(yearsBeforeRetire(1995,'jonas'))
+
+// arrays
+
+// const friends = ["Michael", "Steven", "Peter"];
+// const years = new Array(1997, 2000, 2002);
+// // console.log(friends);
+// friends[2] = "Jay";
+// // console.log(friends);
+// // mas isso nao funciona
+// // friends = [];
+
+// // operacoes
+// const newLen = friends.push("push");
+// console.log(friends);
+// console.log(newLen);
+// friends.unshift("unshift");
+// console.log(friends);
+// const popped = friends.pop();
+// console.log(friends);
+// console.log(popped);
+// friends.shift();
+// console.log(friends);

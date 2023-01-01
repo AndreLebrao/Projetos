@@ -1,4 +1,4 @@
-﻿using Classes.Conta;
+﻿using bytebank.Conta;
 
 internal class Program
 {

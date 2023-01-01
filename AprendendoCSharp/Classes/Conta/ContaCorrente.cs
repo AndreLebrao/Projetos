@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Classes.Conta
+namespace bytebank.Conta
 {
     public class ContaCorrente
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{14DA2860-965C-41F0-BC3C-5FAB5C12C0FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "ConsoleApp1\HelloWorld.csproj", "{14DA2860-965C-41F0-BC3C-5FAB5C12C0FB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bytebank", "Classes\bytebank.csproj", "{9EAE63BF-BF96-420E-BB78-59245AE3CA94}"
 EndProject
